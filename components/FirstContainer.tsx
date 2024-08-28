@@ -29,7 +29,7 @@ const FirstContainer: React.FC = () => {
             </div>
             {/* Image Container */}
             <div className="image-container">
-                <img src="C:\Users\MAHMOUD\Desktop\Mahmoud Nagbou\my-app\imgs\images%20(8).jpg" alt="Profile Image" />
+                <img src="public\imgs\images%20(8).jpg" alt="Profile Image" />
             </div>
         </div>
     );
