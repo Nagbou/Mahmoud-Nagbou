@@ -1,0 +1,124 @@
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    overflow-y: hidden;
+    height: 90vh;
+    width: 80vw;
+    /* Adjusted width to be more responsive */
+    background-color: #1a1b1f;
+
+}
+
+.modal-body {
+
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    /* Ensures images and text are side by side */
+    align-items: flex-start;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 20px;
+    background-color: #414141;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+    background-color: #FE0451;
+
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+.modal-body::-webkit-scrollbar-thumb {
+    background-color: #bd0039;
+    border: 4px solid #414141;
+    border-radius: 4px;
+}
+
+.modal-img-container {
+    flex: 1;
+    /* Takes up one part of the available space */
+    display: flex;
+    flex-direction: column;
+    /* Align images vertically */
+    align-items: center;
+    margin-right: 20px;
+    /* Space between images and text */
+    overflow-y: auto;
+    /* Scroll if images overflow */
+}
+
+.modal-img-container img {
+    max-width: 100%;
+    height: auto;
+    /* Keeps images proportional */
+    margin-top: 2%;
+    margin-bottom: 30px;
+    /* Space between images */
+}
+
+.modal-details {
+    margin-top: 2%;
+    flex: 2;
+    /* Takes up two parts of the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* Aligns text to the left */
+    text-align: left;
+    color: #b9b9b9;
+    /* Align text to the left */
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.card-link-more {
+    cursor: pointer;
+}
+
+.carousel-indicators li {
+    pointer-events: none;
+}
+
+.carousel-indicators li::after {
+    display: none;
+}
+
+.modal-dialog-centered {
+    min-height: calc(100% - 1rem);
+}
+
+.btn-close {
+    background-color: #FE0451;
+    color: white;
+}
+
+.close-btn-text {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #FE0451;
+}
+
+.close-btn-text:hover {
+    color: white;
+    background-color: #eb0046;
+}
+
+.modal-header {
+    border-bottom: 1px solid #750023;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}

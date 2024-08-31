@@ -1,0 +1,111 @@
+/* components/Experience.module.css */
+
+.experienceContainer {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.experienceContainer::-webkit-scrollbar {
+  width: 20px;
+  background-color: #414141;
+}
+.experienceContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #FE0451;
+
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+.experienceContainer::-webkit-scrollbar-thumb {
+  background-color: #bd0039;
+  border: 4px solid #414141;
+  /* Border around thumb to create space effect */
+}
+
+.experience {
+  position: relative;
+  padding: 20px 0;
+  border-left: 5px solid #1a1b1f;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5%;
+  padding-left: 3%;
+  /* Space for the dot */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.dot {
+  position: absolute;
+  left: -10px;
+  /* Adjusted for better alignment with line */
+  top: 20px;
+  /* Adjusted for better alignment with card content */
+  width: 12px;
+  height: 12px;
+  background-color: #FE0451;
+  border-radius: 50%;
+  border: 2px solid rgb(207, 207, 207);
+  z-index: 1;
+}
+
+.content {
+  background-color: rgb(26, 26, 26);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text {
+  margin-top: 5px;
+  color: #5E707C;
+  font-size: 14px;
+}
+
+.experienceText {
+  font-size: 16px;
+  color: #a1a5a8;
+  margin-top: -30px;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Optional: Add responsive styles */
+@media (max-width: 768px) {
+  .experienceContainer {
+    width: 95%;
+    /* Make it full width on smaller screens */
+  }
+
+  .card {
+    margin-bottom: 10%;
+    /* Increase space between cards on smaller screens */
+  }
+}

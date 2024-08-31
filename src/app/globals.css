@@ -6,4 +6,11 @@ daark btns & hover : #1a1b1f */
 body {
   background-color: #212429;
   color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }

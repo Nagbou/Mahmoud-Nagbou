@@ -1,0 +1,157 @@
+
+.portfolio-header {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    position: relative;
+    /* Ensure positioning context for the button */
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-link-more {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #a1aab1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.card-link-more:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-link-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #FE0451;
+    color: #000000;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: padding 0.3s ease, border-radius 0.3s ease, background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.card-link-icon i {
+    font-size: 1.5rem;
+    transition: margin-right 0.3s ease;
+}
+
+.card-link-icon .link-text {
+    position: absolute;
+    left: 120%;
+    margin-left: 10px;
+    color: #FE0451;
+    font-size: 1rem;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, left 0.3s ease;
+}
+
+.card-link-icon:hover {
+    background-color: #000000;
+    color: #FE0451;
+    padding: 10px 120px 10px 20px;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+
+.card-link-icon:hover .link-text {
+    left: 30%;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.card-link-icon:hover i {
+    margin-right: 10px;
+}
+
+.portfolio-row-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-row-header h2 {
+    font-size: 2rem;
+}
+
+.portfolio-row-header p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Adjust carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10;
+    /* Ensure controls are above other content but below the "More Details" buttons */
+}
+
+/* Adjust z-index of carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 11;
+    /* Ensure control icons are on top of the control background */
+}
+
+/* Additional adjustments if necessary */
+.carousel {
+    margin-bottom: 30px;
+    position: relative;
+    /* Make sure carousel controls are positioned correctly */
+}
+
+/* Ensure "More Details" button is always above carousel controls */
+.card-link-more {
+    z-index: 12;
+    /* Higher than carousel control buttons */
+}
+
+.row1 {
+    margin-top: 5%;
+}
+
+.row2 {
+    margin-top: 10%;
+}

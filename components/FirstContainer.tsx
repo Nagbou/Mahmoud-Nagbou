@@ -1,5 +1,6 @@
 import React from 'react';
 import './FirstContainer.css';
+import Link from 'next/link';
 
 const FirstContainer: React.FC = () => {
     return (
@@ -23,13 +24,17 @@ const FirstContainer: React.FC = () => {
                 </div>
 
                 {/* Button */}
+
                 <div className="btn-container">
-                    <button className="btn-custom">About Me</button>
+                    <Link href="#Contact" className="btn-custom">
+                        Contact Me
+                    </Link>
+
                 </div>
             </div>
             {/* Image Container */}
             <div className="image-container">
-                <img src="public\imgs\images%20(8).jpg" alt="Profile Image" />
+                <img src="/imgs/images%20(8).jpg" alt="Profile Image" />
             </div>
         </div>
     );
