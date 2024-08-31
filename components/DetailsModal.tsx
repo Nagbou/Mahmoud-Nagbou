@@ -6,9 +6,10 @@ interface DetailsModalProps {
   title: string;
   details: string; // Text for the modal body
   images: string[]; // Array of image paths for the modal
+  visitLink: string; // URL for the "Visit Website" button
 }
 
-export const DetailsModal: React.FC<DetailsModalProps> = ({ id, title, details, images }) => {
+export const DetailsModal: React.FC<DetailsModalProps> = ({ id, title, details, images, visitLink }) => {
   return (
     <div className="modal fade" id={id} tabIndex={-1} aria-labelledby={`${id}Label`} aria-hidden="true">
       <div className="modal-dialog modal-lg modal-dialog-centered">
@@ -27,13 +28,12 @@ export const DetailsModal: React.FC<DetailsModalProps> = ({ id, title, details, 
               <p>{details}</p>
             </div>
           </div>
-          {/* Modal footer with a visit link */}
-          {/* <div className="modal-footer">
-            <a href={visitLink} className="card-link-icon" target="_blank" rel="noopener noreferrer">
+          <div className="modal-footer">
+            <a href={visitLink} className="card-link-icon close-btn-text" target="_blank" rel="noopener noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
               <span className="link-text">Visit Website</span>
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

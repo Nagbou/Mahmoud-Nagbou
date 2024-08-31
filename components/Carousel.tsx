@@ -21,10 +21,7 @@ export const Carousel: React.FC<CarouselProps> = ({ id, items }) => {
     <div id={id} className="carousel slide mb-5">
       <div className="carousel-inner">
         {items.map((item, index) => (
-          <div
-            key={index}
-            className={`carousel-item ${index === 0 ? "active" : ""}`}
-          >
+          <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
             <div className="row">
               <div className="col-md-12">
                 <Card
@@ -33,7 +30,7 @@ export const Carousel: React.FC<CarouselProps> = ({ id, items }) => {
                   imgSrc={item.imgSrc}
                   visitLink={item.visitLink}
                   modalId={`${id}-modal-${index}`}
-                  modalDetails={item.modalDetails} // Pass modalDetails prop to Card
+                  modalDetails={item.modalDetails}
                 />
               </div>
             </div>
@@ -42,21 +39,11 @@ export const Carousel: React.FC<CarouselProps> = ({ id, items }) => {
       </div>
 
       {/* Carousel Controls */}
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target={`#${id}`}
-        data-bs-slide="prev"
-      >
+      <button className="carousel-control-prev" type="button" data-bs-target={`#${id}`} data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target={`#${id}`}
-        data-bs-slide="next"
-      >
+      <button className="carousel-control-next" type="button" data-bs-target={`#${id}`} data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
