@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import './Navbar.css';
-
+import Image from 'next/image';
 const Navbar: React.FC = () => {
     return (
         <nav className="navbar navbar-expand-lg ">

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'; // Ensure you have a corresponding CSS file for styling
-
+import Image from 'next/image';
 const About: React.FC = () => {
     return (
         <section className="about-section">

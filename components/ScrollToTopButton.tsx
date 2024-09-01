@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './ScrollToTopButton.css';
-
+import Image from 'next/image';
 const ScrollToTopButton: React.FC = () => {
     const [visible, setVisible] = useState(false);
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './FirstContainer.css';
 import Link from 'next/link';
-
+import Image from 'next/image';
 const FirstContainer: React.FC = () => {
     return (
         <div className="first-container">

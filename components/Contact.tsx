@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.css';
-
+import Image from 'next/image';
 interface ContactProps {
     photoSrc: string;
     header: string;

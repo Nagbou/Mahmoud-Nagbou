@@ -1,6 +1,6 @@
 import React from 'react';
 import './WhatIDo.css'; // Ensure you have a corresponding CSS file for styling
-
+import Image from 'next/image';
 const WhatIDo: React.FC = () => {
     return (
         <section className="cards-section py-5">

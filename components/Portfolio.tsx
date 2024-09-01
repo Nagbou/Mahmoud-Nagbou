@@ -3,7 +3,7 @@
 import React from "react";
 import { Carousel } from "./Carousel";
 import './Portfolio.css';
-
+import Image from 'next/image';
 export const Portfolio: React.FC = () => {
   const firstCarouselItems = [
     {

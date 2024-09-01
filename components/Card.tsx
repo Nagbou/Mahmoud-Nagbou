@@ -1,7 +1,7 @@
 import React from "react";
 import { DetailsModal } from "./DetailsModal";
 import './Portfolio.css';
-
+import Image from 'next/image';
 interface CardProps {
   title: string;
   text: string;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css'; // Make sure to create and import your CSS file
-
+import Image from 'next/image';
 const Skills: React.FC = () => {
     return (
         <section className="icons-section py-5">

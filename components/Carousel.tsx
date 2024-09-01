@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "./Card";
 import './Portfolio.css';
-
+import Image from 'next/image';
 interface CarouselProps {
   id: string;
   items: Array<{

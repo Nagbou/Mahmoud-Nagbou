@@ -1,7 +1,7 @@
 // components/Experience.tsx
 import React, { useEffect, useRef } from 'react';
 import styles from './Experience.module.css';
-
+import Image from 'next/image';
 interface CardProps {
     title: string;
     text: string;

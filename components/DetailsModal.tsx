@@ -1,6 +1,6 @@
 import React from "react";
 import './DetailsModal.css';
-
+import Image from 'next/image';
 interface DetailsModalProps {
   id: string;
   title: string;
