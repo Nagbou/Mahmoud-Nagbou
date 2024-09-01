@@ -11,9 +11,11 @@ import { Contact } from '../../components/Contact';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import Experience from '../../components/Experience';
 
+
 export default function Home() {
   return (
     <>
+
       <Navbar />
       <FirstContainer />
       <section id='About'>
@@ -27,7 +29,7 @@ export default function Home() {
       <Experience />
       <section id='Contact'>
         <Contact photoSrc={'/imgs/me2.jpg'} header={'Hi, this is Mahmoud.'} text={''} linkedinUrl={'https://www.linkedin.com/in/mahmoud-nagbou-123597224/'}
-          xUrl={'https://x.com/m_nagbou'} email={'nagboumahmoud22@gmail.com'} githubUrl={'https://github.com/Nagbou'} upworkUrl={'https://www.upwork.com/freelancers/~010366e834bf084e45?mp_source=share'} />
+          xUrl={'https://x.com/m_nagbou'} email={'nagboumahmoud22@gmail.com'} githubUrl={'https://github.com/Nagbou'} upworkUrl={'https://www.upwork.com/freelancers/~010366e834bf084e45?mp_source=share'} behanceUrl={'https://www.behance.net/mahmoudnagbou'} />
       </section>
       <ScrollToTopButton />
       <Script

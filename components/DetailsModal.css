@@ -10,11 +10,9 @@
     width: 80vw;
     /* Adjusted width to be more responsive */
     background-color: #1a1b1f;
-
 }
 
 .modal-body {
-
     overflow-y: scroll;
     display: flex;
     flex-direction: row;
@@ -31,7 +29,6 @@
 
 .modal-body::-webkit-scrollbar-thumb:hover {
     background-color: #FE0451;
-
 }
 
 /* Style for the scrollbar thumb (the draggable part) */
@@ -43,38 +40,32 @@
 
 .modal-img-container {
     flex: 1;
-    /* Takes up one part of the available space */
     display: flex;
     flex-direction: column;
-    /* Align images vertically */
     align-items: center;
     margin-right: 20px;
-    /* Space between images and text */
     overflow-y: auto;
-    /* Scroll if images overflow */
+    width: 800px;
 }
 
 .modal-img-container img {
-    max-width: 100%;
+    width: 800px;
     height: auto;
-    /* Keeps images proportional */
     margin-top: 2%;
     margin-bottom: 30px;
-    /* Space between images */
+    object-fit: contain;
 }
 
 .modal-details {
     margin-top: 2%;
     flex: 2;
-    /* Takes up two parts of the available space */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* Aligns text to the left */
     text-align: left;
     color: #b9b9b9;
-    /* Align text to the left */
+    max-width: 45%;
 }
 
 body.modal-open {

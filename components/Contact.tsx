@@ -10,9 +10,10 @@ interface ContactProps {
     email: string;
     githubUrl: string; // Added GitHub URL
     upworkUrl: string; // Added Upwork URL
+    behanceUrl: string;
 }
 
-export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linkedinUrl, xUrl, email, githubUrl, upworkUrl }) => {
+export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linkedinUrl, xUrl, email, githubUrl, upworkUrl, behanceUrl }) => {
     return (
         <section className="contact-section container py-5">
             <div className="container">
@@ -47,6 +48,9 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
                                     </a>
                                     <a href={upworkUrl} target="_blank" rel="noopener noreferrer" className="social-link">
                                         <i className="fa-brands fa-upwork"></i> Mahmoud Nagbou
+                                    </a>
+                                    <a href={behanceUrl} target="_blank" rel="noopener noreferrer" className="social-link">
+                                        <i className="fa-brands fa-behance"></i> Mahmoud Nagbou
                                     </a>
                                     <a href={`mailto:${email}`} className="social-link">
                                         <i className="fa-solid fa-envelope"></i> nagboumahoud22@gmail.com
