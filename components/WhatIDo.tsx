@@ -6,7 +6,7 @@ const WhatIDo: React.FC = () => {
         <section className="cards-section py-5">
             <div className="container">
                 <div className="row text-center">
-                    <h1 className="card_section_header">What I'm Good At?</h1>
+                    <h1 className="card_section_header">What I&#39;m Good At?</h1>
 
                     {/* Card 1 */}
                     <div className="col-md-4 mb-4">

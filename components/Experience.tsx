@@ -1,7 +1,5 @@
-// components/Experience.tsx
 import React, { useEffect, useRef } from 'react';
 import styles from './Experience.module.css'; // Ensure this file contains the necessary styles
-import Image from 'next/image'; // Importing Image but not used in this snippet; remove if unnecessary
 
 interface CardProps {
     title: string;
@@ -24,13 +22,15 @@ const Card: React.FC<CardProps> = ({ title, text }) => {
             { threshold: 0.1 }
         );
 
-        if (cardRef.current) {
-            observer.observe(cardRef.current);
+        const currentCardRef = cardRef.current; // Save ref to a variable
+
+        if (currentCardRef) {
+            observer.observe(currentCardRef);
         }
 
         return () => {
-            if (cardRef.current) {
-                observer.unobserve(cardRef.current);
+            if (currentCardRef) {
+                observer.unobserve(currentCardRef);
             }
         };
     }, []);
@@ -91,7 +91,6 @@ const Experience: React.FC = () => {
                         title="Graphic Design Masterclass - Learn GREAT Design"
                         text="Graduated from 'Graphic Design Masterclass - Learn GREAT Design,' developing a strong foundation in design principles, creative process, and professional design techniques."
                     />
-
                     {/* Add more Card components as needed */}
                 </div>
             </div>

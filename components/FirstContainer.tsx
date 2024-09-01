@@ -10,12 +10,12 @@ const FirstContainer: React.FC = () => {
             <div className="text-container">
                 {/* Main Name Header */}
                 <h1 className="name">
-                    Hi, I'm <br />Mahmoud <br /> Nagbou
+                    Hi, I&#39;m <br />Mahmoud <br /> Nagbou
                 </h1>
 
                 {/* Fixed Text and Sliding Headers on the Same Line */}
                 <div className="text-line">
-                    <span className="fixed-text">I'm a</span>
+                    <span className="fixed-text">I&#39;m a</span>
                     <div className="sliding-header">
                         <span>Web Developer</span>
                     </div>

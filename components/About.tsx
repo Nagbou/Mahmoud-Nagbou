@@ -21,7 +21,7 @@ const About: React.FC = () => {
                 <h2>Who’s Behind This Website?</h2>
                 <h4 className="mb-2 mt-2">Get to Know Me, My Passion, Purpose, and Journey.</h4>
 
-                <p>Hi, I'm Mahmoud</p>
+                <p>Hi, I&#39;m Mahmoud</p>
                 <p>
                     As a Business Intelligence Developer with extensive experience in web development, I am passionate about
                     harnessing data to drive strategic business decisions. I excel at transforming raw data into actionable
