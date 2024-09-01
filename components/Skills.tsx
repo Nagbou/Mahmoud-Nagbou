@@ -1,6 +1,6 @@
 import React from 'react';
-import './Skills.css'; // Make sure to create and import your CSS file
-import Image from 'next/image';
+import './Skills.css'; // Ensure this file exists and contains appropriate styles
+
 const Skills: React.FC = () => {
     return (
         <section className="icons-section py-5">
@@ -9,76 +9,18 @@ const Skills: React.FC = () => {
                     <h1 className="icons-section-header">My Skills</h1>
 
                     {/* Icons */}
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/13.jpg" alt="Icon 1" />
+                    {[
+                        "/imgs/13.jpg", "/imgs/14.jpg", "/imgs/7.jpg", "/imgs/11.jpg",
+                        "/imgs/8.jpg", "/imgs/3.jpg", "/imgs/6.jpg", "/imgs/10.jpg",
+                        "/imgs/1.jpg", "/imgs/2.jpg", "/imgs/4.jpg", "/imgs/5.jpg",
+                        "/imgs/12.jpg", "/imgs/9.jpg"
+                    ].map((src, index) => (
+                        <div key={index} className={`col-md-3 mb-4 ${index % 4 === 0 ? 'offset-md-3' : ''}`}>
+                            <div className="icon-box">
+                                <img src={src} alt={`Icon ${index + 1}`} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/14.jpg" alt="Icon 2" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/7.jpg" alt="Icon 3" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/11.jpg" alt="Icon 4" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/8.jpg" alt="Icon 5" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/3.jpg" alt="Icon 6" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/6.jpg" alt="Icon 7" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/10.jpg" alt="Icon 8" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/1.jpg" alt="Icon 9" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/2.jpg" alt="Icon 10" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/4.jpg" alt="Icon 11" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/5.jpg" alt="Icon 12" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 offset-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/12.jpg" alt="Icon 13" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
-                        <div className="icon-box">
-                            <img src="/imgs/9.jpg" alt="Icon 14" />
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>

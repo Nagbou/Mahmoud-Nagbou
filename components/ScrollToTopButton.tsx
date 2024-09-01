@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './ScrollToTopButton.css';
 import Image from 'next/image';
+
 const ScrollToTopButton: React.FC = () => {
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 300) {
-                setVisible(true);
-            } else {
-                setVisible(false);
-            }
+            setVisible(window.scrollY > 300);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -28,6 +25,7 @@ const ScrollToTopButton: React.FC = () => {
         <button
             className={`scroll-to-top-btn ${visible ? 'visible' : ''}`}
             onClick={scrollToTop}
+            aria-label="Scroll to top"
         >
             <i className="fa-solid fa-chevron-up"></i>
         </button>

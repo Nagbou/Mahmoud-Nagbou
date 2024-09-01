@@ -1,6 +1,7 @@
 import React from "react";
 import './Contact.css';
 import Image from 'next/image';
+
 interface ContactProps {
     photoSrc: string;
     header: string;
@@ -8,8 +9,8 @@ interface ContactProps {
     linkedinUrl: string;
     xUrl: string;
     email: string;
-    githubUrl: string; // Added GitHub URL
-    upworkUrl: string; // Added Upwork URL
+    githubUrl: string;
+    upworkUrl: string;
     behanceUrl: string;
 }
 
@@ -21,19 +22,27 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
                     <h1 className="icons-section-header">Contact Me</h1>
                     <div className="contact-content d-flex">
                         <div className="contact-photo col-md-6">
-                            <img src={photoSrc} alt="Profile" className="img-fluid" />
+                            <Image
+                                src={photoSrc}
+                                alt="Profile"
+                                className="img-fluid"
+                                layout="responsive"
+                                width={500}
+                                height={500}
+                            />
                         </div>
                         <div className="contact-details col-md-6 d-flex flex-column">
                             <div className="contact-text mb-3">
                                 <h2>{header}</h2>
                                 <p>{text}</p>
                                 <p className="contact-message">
-                                    Thank you for exploring my website and considering me for your next project. <br />  <br />
+                                    Thank you for exploring my website and considering me for your next project. <br /> <br />
                                     I am genuinely excited about the possibility of collaborating with you.
-                                    Whether you're looking to brainstorm ideas, develop a strategy, or dive into the execution phase,
-                                    I'm here to help.  <br /> <br />Please feel free to reach out through any of the platforms listed below.
+                                    Whether you&apos;re looking to brainstorm ideas, develop a strategy, or dive into the execution phase,
+                                    I&apos;m here to help. <br /> <br />Please feel free to reach out through any of the platforms listed below.
                                     I look forward to discussing how we can work together to achieve your goals and create something truly
-                                    exceptional. </p>
+                                    exceptional.
+                                </p>
                             </div>
                             <div className="contact-social-media">
                                 <div className="social-links d-flex flex-column">
@@ -53,7 +62,7 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
                                         <i className="fa-brands fa-behance"></i> Mahmoud Nagbou
                                     </a>
                                     <a href={`mailto:${email}`} className="social-link">
-                                        <i className="fa-solid fa-envelope"></i> nagboumahoud22@gmail.com
+                                        <i className="fa-solid fa-envelope"></i> {email}
                                     </a>
                                 </div>
                             </div>

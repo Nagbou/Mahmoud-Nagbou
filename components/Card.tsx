@@ -2,6 +2,7 @@ import React from "react";
 import { DetailsModal } from "./DetailsModal";
 import './Portfolio.css';
 import Image from 'next/image';
+
 interface CardProps {
   title: string;
   text: string;
@@ -18,7 +19,14 @@ export const Card: React.FC<CardProps> = ({ title, text, imgSrc, visitLink, moda
   return (
     <>
       <div className="card">
-        <img src={imgSrc} className="card-img-top" alt={title} />
+        <Image
+          src={imgSrc}
+          alt={title}
+          className="card-img-top"
+          layout="responsive"
+          width={500}
+          height={300}
+        />
         <button className="card-link-more btn btn-link" data-bs-toggle="modal" data-bs-target={`#${modalId}`}>
           More Details
         </button>

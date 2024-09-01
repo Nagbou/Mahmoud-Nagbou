@@ -1,6 +1,7 @@
 import React from "react";
 import './DetailsModal.css';
 import Image from 'next/image';
+
 interface DetailsModalProps {
   id: string;
   title: string;
@@ -21,7 +22,9 @@ export const DetailsModal: React.FC<DetailsModalProps> = ({ id, title, details, 
           <div className="modal-body">
             <div className="modal-img-container">
               {images.map((imgSrc, index) => (
-                <img key={index} src={imgSrc} className="img-fluid mb-2" alt={`Detail ${index + 1}`} />
+                <div key={index} className="mb-2">
+                  <Image src={imgSrc} className="img-fluid" alt={`Detail ${index + 1}`} width={500} height={300} />
+                </div>
               ))}
             </div>
             <div className="modal-details">

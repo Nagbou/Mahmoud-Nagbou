@@ -1,12 +1,12 @@
 import React from 'react';
 import './WhatIDo.css'; // Ensure you have a corresponding CSS file for styling
-import Image from 'next/image';
+
 const WhatIDo: React.FC = () => {
     return (
         <section className="cards-section py-5">
             <div className="container">
                 <div className="row text-center">
-                    <h1 className="card_section_header">What I'm good at?</h1>
+                    <h1 className="card_section_header">What I'm Good At?</h1>
 
                     {/* Card 1 */}
                     <div className="col-md-4 mb-4">
