@@ -17,7 +17,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 1"
                                 width={70} // Adjust width as needed
                                 height={70} // Adjust height as needed
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 2"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 3"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 4"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 5"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 6"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 7"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 8"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 9"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -116,7 +116,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 10"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -127,7 +127,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 11"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -138,7 +138,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 12"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -149,7 +149,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 13"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
@@ -160,7 +160,7 @@ const Skills: React.FC = () => {
                                 alt="Icon 14"
                                 width={70}
                                 height={70}
-                                className={styles.iconImage} //
+                                className={styles.iconImage} // Add this class
                             />
                         </div>
                     </div>
