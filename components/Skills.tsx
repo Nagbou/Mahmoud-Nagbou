@@ -35,6 +35,8 @@ const Skills: React.FC = () => {
                                 <Image
                                     src={icon.src}
                                     alt={icon.alt}
+                                    width={60} // Adjust width as needed
+                                    height={80} // Adjust height as needed
                                     layout="responsive"
                                 />
                             </div>
