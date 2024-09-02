@@ -66,9 +66,7 @@
 }
 
 
-.image-container img {
-    
-    height: 500px;
+.image-container {
     margin-left: 8%;
     border-radius: 10px;
 }
