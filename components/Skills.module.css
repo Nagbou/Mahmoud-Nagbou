@@ -23,7 +23,7 @@
 .iconImage {
     width: 70px;
     /* Set fixed width */
-    height: 70px;
+    height: 80px;
     /* Set fixed height */
     object-fit: contain;
     /* Keeps the aspect ratio */
