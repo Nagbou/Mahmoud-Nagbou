@@ -10,7 +10,7 @@ const FirstContainer: React.FC = () => {
             <div className="text-container">
                 {/* Main Name Header */}
                 <h1 className="name">
-                    Hi, I&#39;m <br />Mahmouddd <br /> Nagbou
+                    Hi, I&#39;m <br />Mahmoud <br /> Nagbou
                 </h1>
 
                 {/* Fixed Text and Sliding Headers on the Same Line */}
@@ -38,7 +38,6 @@ const FirstContainer: React.FC = () => {
                     src="/imgs/images%20(8).jpg"
                     alt="Profile Image"
                     layout="responsive"
-
                 />
             </div>
         </div>

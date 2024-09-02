@@ -10,8 +10,6 @@ const About: React.FC = () => {
                 <Image
                     src="/imgs/me1-1.jpg"
                     alt="Portrait Photo"
-                    width={300}  // Adjust width as needed
-                    height={300} // Adjust height as needed
                     className="portrait-image" // Optional: add a CSS class for styling
                 />
             </div>
