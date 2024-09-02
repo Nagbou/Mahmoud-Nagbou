@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
                     {images.map((src, index) => (
                         <div key={index} className={`col-md-3 mb-4 ${index % 4 === 0 ? 'offset-md-3' : ''}`}>
                             <div className={styles.iconBox}>
-                                <Image src={src} alt={`Icon ${index + 1}`} width={100} height={100} />
+                                <Image src={src} alt={`Icon ${index + 1}`} />
                             </div>
                         </div>
                     ))}
