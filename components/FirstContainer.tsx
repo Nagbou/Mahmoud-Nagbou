@@ -37,6 +37,8 @@ const FirstContainer: React.FC = () => {
                 <Image
                     src="/imgs/images%20(8).jpg"
                     alt="Profile Image"
+                    width={499}
+                    height={380}
                     layout="responsive"
                 />
             </div>

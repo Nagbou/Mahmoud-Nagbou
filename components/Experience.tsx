@@ -49,7 +49,7 @@ const Card: React.FC<CardProps> = ({ title, text }) => {
 const Experience: React.FC = () => {
     return (
         <>
-            <h1 className="icons-section-header text-center">Experience</h1>
+            <h1 className="sectionHeader text-center">Experience</h1>
             <p className={styles.experienceText}>
                 Experience, Education, Licenses, and Certificates.
             </p>

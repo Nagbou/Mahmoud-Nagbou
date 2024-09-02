@@ -101,7 +101,7 @@ export const Portfolio: React.FC = () => {
 
   return (
     <section className="portfolio-section container py-5">
-      <h1 className="icons-section-header text-center">My Portfolio</h1>
+      <h1 className="section-header  text-center">My Portfolio</h1>
       {/* First Row Header */}
       <div className="row1 mb-5">
         <div className="portfolio-row-header mb-5">

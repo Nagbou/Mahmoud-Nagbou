@@ -26,6 +26,8 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
                                 src={photoSrc}
                                 alt="Profile"
                                 className="img-fluid"
+                                width={500}
+                                height={600}
                                 layout="responsive"
 
                             />

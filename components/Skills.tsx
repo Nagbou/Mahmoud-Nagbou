@@ -16,7 +16,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/13.jpg"
                                 alt="Icon 1"
                                 width={60} // Adjust width as needed
-                                height={80} // Adjust height as needed
+                                height={60} // Adjust height as needed
                                 layout="responsive"
                             />
                         </div>
@@ -27,7 +27,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/14.jpg"
                                 alt="Icon 2"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -38,7 +38,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/7.jpg"
                                 alt="Icon 3"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -49,7 +49,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/11.jpg"
                                 alt="Icon 4"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/8.jpg"
                                 alt="Icon 5"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -71,7 +71,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/3.jpg"
                                 alt="Icon 6"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -82,7 +82,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/6.jpg"
                                 alt="Icon 7"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -93,7 +93,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/10.jpg"
                                 alt="Icon 8"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -104,7 +104,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/1.jpg"
                                 alt="Icon 9"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -115,7 +115,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/2.jpg"
                                 alt="Icon 10"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -126,7 +126,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/4.jpg"
                                 alt="Icon 11"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -137,7 +137,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/5.jpg"
                                 alt="Icon 12"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -148,7 +148,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/12.jpg"
                                 alt="Icon 13"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>
@@ -159,7 +159,7 @@ const Skills: React.FC = () => {
                                 src="/imgs/9.jpg"
                                 alt="Icon 14"
                                 width={60}
-                                height={80}
+                                height={60}
                                 layout="responsive"
                             />
                         </div>

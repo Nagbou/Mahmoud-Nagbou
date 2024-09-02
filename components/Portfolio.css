@@ -1,3 +1,9 @@
+.section-header {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+
 .portfolio-header {
     text-align: center;
     color: white;
