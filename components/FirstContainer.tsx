@@ -40,7 +40,6 @@ const FirstContainer: React.FC = () => {
                     alt="Profile Image"
                     width={499}
                     height={380}
-                    layout="responsive"
                 />
             </div>
         </div>
