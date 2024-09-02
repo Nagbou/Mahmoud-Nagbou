@@ -21,13 +21,13 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
                 <div className="row text-center">
                     <h1 className="section-header">Contact Me</h1>
                     <div className="contact-content d-flex">
-                        <div className="contact-photo-img col-md-5">
+                        <div className="contact-photo col-md-5">
                             <Image
                                 src={photoSrc}
                                 alt="Profile"
                                 className="img-fluid"
                                 width={100}
-                                height={150}
+                                height={100}
                                 layout="responsive"
 
                             />

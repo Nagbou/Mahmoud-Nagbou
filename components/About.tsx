@@ -6,7 +6,7 @@ const About: React.FC = () => {
     return (
         <section className="about-section">
             {/* Portrait Image Container */}
-            <div className="portrait-container-img">
+            <div className="portrait-container">
                 <Image
                     src="/imgs/me1-1.jpg"
                     alt="Portrait Photo"
