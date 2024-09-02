@@ -19,15 +19,15 @@ export const Contact: React.FC<ContactProps> = ({ photoSrc, header, text, linked
         <section className="contact-section container py-5">
             <div className="container">
                 <div className="row text-center">
-                    <h1 className="icons-section-header">Contact Me</h1>
+                    <h1 className="section-header">Contact Me</h1>
                     <div className="contact-content d-flex">
-                        <div className="contact-photo col-md-6">
+                        <div className="contact-photo col-md-4">
                             <Image
                                 src={photoSrc}
                                 alt="Profile"
                                 className="img-fluid"
-                                width={500}
-                                height={600}
+                                width={200}
+                                height={300}
                                 layout="responsive"
 
                             />
