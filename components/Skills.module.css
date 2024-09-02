@@ -35,3 +35,7 @@
         max-width: 50%;
     }
 }
+
+element.style {
+    width: 80%;
+}
