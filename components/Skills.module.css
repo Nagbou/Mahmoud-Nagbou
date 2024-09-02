@@ -20,6 +20,14 @@
     height: auto;
 }
 
+.iconImage {
+    width: 70px;
+    /* Set fixed width */
+    height: 70px;
+    /* Set fixed height */
+    object-fit: contain;
+    /* Keeps the aspect ratio */
+}
 
 /* Ensure that the icons are evenly spaced */
 @media (max-width: 991px) {
