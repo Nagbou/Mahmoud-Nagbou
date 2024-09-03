@@ -10,12 +10,12 @@ import { Portfolio } from "../../components/Portfolio";
 import { Contact } from '../../components/Contact';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import Experience from '../../components/Experience';
-import Image from 'next/image';
+import SmallDeviceWarning from '../../components/SmallDeviceWarning';
 
 export default function Home() {
   return (
     <>
-
+      <SmallDeviceWarning />
       <Navbar />
       <FirstContainer />
       <section id='About'>
