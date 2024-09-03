@@ -11,31 +11,33 @@ import { Contact } from '../../components/Contact';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 import Experience from '../../components/Experience';
 import SmallDeviceWarning from '../../components/SmallDeviceWarning';
-
+import styles from './page.module.css';
 export default function Home() {
   return (
     <>
       <SmallDeviceWarning />
-      <Navbar />
-      <FirstContainer />
-      <section id='About'>
-        <About />
-      </section>
-      <WhatIDo />
-      <Skills />
-      <section id='Portfolio'>
-        <Portfolio />
-      </section>
-      <Experience />
-      <section id='Contact'>
-        <Contact photoSrc={'/imgs/me2.jpg'} header={'Hi, this is Mahmoud.'} text={''} linkedinUrl={'https://www.linkedin.com/in/mahmoud-nagbou-123597224/'}
-          xUrl={'https://x.com/m_nagbou'} email={'nagboumahmoud22@gmail.com'} githubUrl={'https://github.com/Nagbou'} upworkUrl={'https://www.upwork.com/freelancers/~010366e834bf084e45?mp_source=share'} behanceUrl={'https://www.behance.net/mahmoudnagbou'} />
-      </section>
-      <ScrollToTopButton />
-      <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        strategy="afterInteractive"
-      />
+      <div className={styles.mainContent}>
+        <Navbar />
+        <FirstContainer />
+        <section id='About'>
+          <About />
+        </section>
+        <WhatIDo />
+        <Skills />
+        <section id='Portfolio'>
+          <Portfolio />
+        </section>
+        <Experience />
+        <section id='Contact'>
+          <Contact photoSrc={'/imgs/me2.jpg'} header={'Hi, this is Mahmoud.'} text={''} linkedinUrl={'https://www.linkedin.com/in/mahmoud-nagbou-123597224/'}
+            xUrl={'https://x.com/m_nagbou'} email={'nagboumahmoud22@gmail.com'} githubUrl={'https://github.com/Nagbou'} upworkUrl={'https://www.upwork.com/freelancers/~010366e834bf084e45?mp_source=share'} behanceUrl={'https://www.behance.net/mahmoudnagbou'} />
+        </section>
+        <ScrollToTopButton />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+          strategy="afterInteractive"
+        />
+      </div>
     </>
 
   );

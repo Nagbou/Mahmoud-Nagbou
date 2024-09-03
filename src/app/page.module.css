@@ -1,0 +1,11 @@
+.mainContent {
+    display: block;
+    /* Default to display content */
+}
+
+/* Hide content on small screens */
+@media (max-width: 768px) {
+    .mainContent {
+        display: none;
+    }
+}
