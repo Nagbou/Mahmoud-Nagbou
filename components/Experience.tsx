@@ -69,7 +69,7 @@ const Experience: React.FC = () => {
                     />
                     <Card
                         title="Business Intelligence Developer, Internship"
-                        text="Utilized advanced BI technologies to thoroughly analyze client flow patterns, uncover operational inefficiencies, and craft targeted solutions. Focused on optimizing processes and enhancing client engagement to drive future performance improvements."
+                        text="|ForeverMo GROUP| As a BI Developer, I addressed the issue of declining client numbers by applying Business Intelligence techniques. I conducted thorough data visualization, analysis, and exploration to identify the underlying problems. Subsequently, I proposed and predicted solutions to mitigate these issues and improve client engagement."
                     />
                     <Card
                         title="The Complete 2024 Web Development Bootcamp"
