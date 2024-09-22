@@ -25,20 +25,20 @@ export const Portfolio: React.FC = () => {
       visitLink: "https://courses-ratings-prediction.onrender.com",
       modalDetails: {
         text: "We applied a combination of data mining, machine learning, and business intelligence techniques to develop a predictive model that enhances course ratings and optimizes instructor-course pairings in the online education sector. By leveraging historical data on course performance and instructor attributes, such as knowledge, expertise, overall score, course duration, difficulty level, and course type, we aimed to identify the most influential factors contributing to high learner satisfaction and course success. Our machine learning model, created using Python and the scikit-learn library, is designed to efficiently use a subset of five key features to predict other critical metrics, including the odds of a course’s success. This approach reduces data complexity while maintaining high predictive accuracy, allowing us to forecast course ratings with greater reliability.To complement our predictive model, we utilized Power BI to visualize the data, providing an in-depth comparative analysis of instructors' performance and course ratings based on historical data. These visualizations enabled us to explore the performance of each instructor across various courses, uncovering patterns and insights that highlight which instructor attributes are most closely associated with higher course ratings. By analyzing these relationships, we could make more informed decisions about matching instructors to courses that best align with their strengths, thereby optimizing course outcomes and enhancing learner satisfaction.The integration of machine learning and data visualization techniques provided a comprehensive framework for understanding and improving course offerings. Educational platforms can use the insights gained from our model to strategically assign instructors to courses, improve teaching effectiveness, and tailor course content to better meet learners' needs. This data-driven strategy not only enhances course quality but also supports continuous improvement in educational outcomes, fostering a more engaging and successful learning environment.",
-        images: ["/imgs/cr-2.jpg", "/imgs/cr-1.jpg", "/imgs/cr-3.jpg", "/imgs/cr-3.jpg", "/imgs/cr-4.jpg", "/imgs/cr-5.jpg", "/imgs/cr-6.jpg", "/imgs/cr-7.jpg", "/imgs/cr-8.jpg", "/imgs/cr-9.jpg"], // Additional images
+        images: ["/imgs/cr-2.jpg", "/imgs/cr-1.jpg", "/imgs/cr-3.jpg",  "/imgs/cr-4.jpg", "/imgs/cr-5.jpg", "/imgs/cr-6.jpg", "/imgs/cr-7.jpg", "/imgs/cr-8.jpg", "/imgs/cr-9.jpg"], // Additional images
       },
     },
-    // {
-    //   title: "Card Title 3",
-    //   text: "Quick example text to build on the card title.",
-    //   imgSrc: "img3.jpg",
-    //   moreDetailsLink: "#",
-    //   visitLink: "#",
-    //   modalDetails: {
-    //     text: "Additional information for the third card.",
-    //     images: ["img5.jpg"], // Additional images
-    //   },
-    // },
+    {
+      title: "Predicting Customer purchase with Machine Learning",
+      text: "This Flask-based web application allows users to predict customer purchase behavior based on various input factors such as age, gender, annual income, and product preferences. The app features an intuitive interface with data visualization tools, including charts and graphs, to analyze customer patterns. Additionally, users can easily navigate between the prediction tool and a dashboard for detailed insights. The app is built with Python for backend processing and leverages HTML, JavaScript, and popular libraries like Bootstrap for a smooth, user-friendly frontend experience.",
+      imgSrc: "/imgs/cp-cover.jpg",
+      moreDetailsLink: "#",
+      visitLink: "https://customer-purchase-prediction-1.onrender.com/",
+      modalDetails: {
+        text: "This web application, built using Flask, serves as an interactive platform to predict customer purchasing behavior based on key factors such as age, gender, annual income, number of purchases, and more. The app’s core functionality involves leveraging a machine learning model to generate predictions, providing businesses with actionable insights into customer buying habits. Upon entering relevant data, users can submit the information to the app, which processes the input and displays predictions about potential purchasing behaviors. This can be particularly useful for marketers and business managers looking to target specific customer segments more effectively. The app also features a dynamic dashboard with visualizations, including bar charts, pie charts, and graphs that present key trends and data from the uploaded CSV files. This dashboard helps users quickly understand patterns in customer behavior, track engagement, and make data-driven decisions. With a sleek and responsive design powered by HTML, CSS, and JavaScript, the app provides a seamless experience on both desktop and mobile devices. The integration of Bootstrap ensures an organized and aesthetically pleasing layout. The application is built with scalability in mind, and can be easily expanded to include more features such as advanced analytics and reports, supporting business intelligence efforts. Furthermore, the app includes PDF support, allowing users to view important documents in a popup on the same page. By combining machine learning, data visualization, and user-friendly design, the app is a powerful tool for businesses to forecast customer actions and optimize marketing strategies.",
+        images: ["/imgs/cp-1.jpg", "/imgs/cp-2.jpg", "/imgs/cp-3.jpg", "/imgs/cp-4.jpg", "/imgs/cr-5.jpg"], // Additional images
+      },
+    },
   ];
 
   const secondCarouselItems = [
