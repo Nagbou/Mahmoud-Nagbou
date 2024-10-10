@@ -71,6 +71,10 @@ const Experience: React.FC = () => {
                         title="Business Intelligence Developer, Internship"
                         text="|ForeverMo GROUP| As a BI Developer, I addressed the issue of declining client numbers by applying Business Intelligence techniques. I conducted thorough data visualization, analysis, and exploration to identify the underlying problems. Subsequently, I proposed and predicted solutions to mitigate these issues and improve client engagement."
                     />
+                     <Card
+                        title="IBM Business Intelligence (BI) Essentials"
+                        text="Certified in IBM Business Intelligence (BI) Essentials, gaining expertise in data analysis, visualization, and decision-making tools to support business strategies."
+                    />
                     <Card
                         title="The Complete 2024 Web Development Bootcamp"
                         text="Certified in web development through Udemy’s intensive bootcamp, mastering modern web technologies and best practices."
