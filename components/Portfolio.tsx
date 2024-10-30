@@ -48,14 +48,14 @@ export const Portfolio: React.FC = () => {
         images: ["/imgs/ssa-1.jpg", "/imgs/ssa-2.jpg", "/imgs/ssa-3.jpg", "/imgs/ssa-4.jpg", "/imgs/ssa-5.jpg", "/imgs/ssa-6.jpg", "/imgs/ssa-7.jpg", "/imgs/ssa-8.jpg", "/imgs/ssa-9.jpg", "/imgs/ssa-10.jpg", "/imgs/ssa-11.jpg", "/imgs/ssa-12.jpg", "/imgs/ssa-13.jpg"], // Additional images
       },
     },
-    
+
   ];
 
   const secondCarouselItems = [
     {
       title: "Real Estate Agency Website Development",
       text: "I developed a full-featured real estate website using the MERN stack and Tailwind CSS. It includes a landing page, 'About' and 'Contact' pages, and a categorized gallery that links to detailed property listings. I integrated secure user authentication with Firebase, allowing users to create accounts, save listings, and manage profiles. This site combines responsive design and robust functionality, enhancing user experience and supporting the agency in engaging clients effectively.",
-      imgSrc: "/imgs/re-cover.jpg",
+      imgSrc: "/imgs/re-cover2.jpg",
       moreDetailsLink: "#",
       visitLink: "https://real-estate-mern-stack-qmnr.onrender.com/",
       modalDetails: {
