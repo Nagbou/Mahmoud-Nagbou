@@ -25,9 +25,9 @@ const About: React.FC = () => {
         <p>
           Passionate about transforming data into actionable insights and
           intelligent solutions, I specialize in blending Business Intelligence
-          -BI- and Artificial Intelligence -AI- to drive innovation. With a
+          BI and Artificial Intelligence AI to drive innovation. With a
           strong foundation in data science, data analytics, machine learning
-          -ML-, and web development, I create AI-powered applications that
+          ML, and web development, I create AI-powered applications that
           enhance decision-making and automate analytics.
         </p>
         <p>

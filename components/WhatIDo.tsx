@@ -15,14 +15,10 @@ const WhatIDo: React.FC = () => {
                 <div className="card-icon">
                   <i className="fa-solid fa-laptop"></i>
                 </div>
-                <h5 className="card-title">
-                  Artificial Intelligence & Data Analytics
-                </h5>
+                <h5 className="card-title">AI Developer</h5>
                 <p className="card-text">
-                  I specialize in developing AI-driven solutions that enhance
-                  decision-making and automate analytics. My expertise includes
-                  machine learning, data science, and building intelligent
-                  applications that transform raw data into actionable insights.
+                  I design and develop AI solutions that automate processes and
+                  enhance decision-making.
                 </p>
               </div>
             </div>
@@ -51,10 +47,10 @@ const WhatIDo: React.FC = () => {
                 <div className="card-icon">
                   <i className="fa-solid fa-database"></i>
                 </div>
-                <h5 className="card-title">Data Mining</h5>
+                <h5 className="card-title">Data Science</h5>
                 <p className="card-text">
-                  I extract valuable insights from data, applying advanced
-                  techniques in data mining to uncover patterns and trends.
+                  I analyze data and build predictive models to drive
+                  data-driven decision-making.
                 </p>
               </div>
             </div>

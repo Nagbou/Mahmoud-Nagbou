@@ -20,7 +20,6 @@ const FirstContainer: React.FC = () => {
           <div className="sliding-header">
             <span>Full-Stack AI Developer</span>
           </div>
-
           <div className="sliding-header">
             <span>Business Intelligence Developer</span>
           </div>
