@@ -101,6 +101,39 @@ const Skills: React.FC = () => {
                     <div className="col-md-3 mb-4">
                         <div className={styles.iconBox}>
                             <Image
+                                src="/imgs/17.jpg"
+                                alt="Icon 8"
+                                width={60}
+                                height={70}
+                                className={styles.iconImage} // Add this class
+                            />
+                        </div>
+                    </div>
+                    <div className="col-md-3 mb-4">
+                        <div className={styles.iconBox}>
+                            <Image
+                                src="/imgs/18.jpg"
+                                alt="Icon 8"
+                                width={60}
+                                height={70}
+                                className={styles.iconImage} // Add this class
+                            />
+                        </div>
+                    </div>
+                    <div className="col-md-3 mb-4">
+                        <div className={styles.iconBox}>
+                            <Image
+                                src="/imgs/19.jpg"
+                                alt="Icon 8"
+                                width={60}
+                                height={70}
+                                className={styles.iconImage} // Add this class
+                            />
+                        </div>
+                    </div>
+                    <div className="col-md-3 mb-4">
+                        <div className={styles.iconBox}>
+                            <Image
                                 src="/imgs/1.jpg"
                                 alt="Icon 9"
                                 width={60}
