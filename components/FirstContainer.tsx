@@ -31,11 +31,18 @@ const FirstContainer: React.FC = () => {
           </div>
         </div>
 
-        {/* Button */}
+        {/* Buttons */}
         <div className="btn-container">
           <Link href="#Contact" className="btn-custom">
             Contact Me
           </Link>
+          <a
+            href="/Resume_Mahmoud_Nagbou.pdf"
+            className="btn-custom"
+            download="Resume_Mahmoud_Nagbou.pdf"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
 
